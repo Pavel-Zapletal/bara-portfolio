@@ -1,0 +1,29 @@
+.button-active{
+    background-color: $main-blue !important;
+}
+
+.btn-toggle{
+    width: 55% !important;
+
+    .text-area{
+        p{
+            display: block !important;
+        }
+    }
+}
+
+.btn{
+    position: absolute;
+    padding: 2rem;
+    z-index: 1000;
+    top: 50%;
+    transform: translateY(-50%);
+
+    &:first-of-type{
+        left: 5%;
+
+    }
+    &:last-of-type{
+        right: 5%;
+    }
+}

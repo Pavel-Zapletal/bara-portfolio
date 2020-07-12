@@ -1,0 +1,106 @@
+@-webkit-keyframes moveInLeft {
+  0% {
+    -webkit-transform: translateX(-120px);
+            transform: translateX(-120px);
+  }
+  60% {
+    -webkit-transform: translate(20px);
+            transform: translate(20px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+@keyframes moveInLeft {
+  0% {
+    -webkit-transform: translateX(-120px);
+            transform: translateX(-120px);
+  }
+  60% {
+    -webkit-transform: translate(20px);
+            transform: translate(20px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+@-webkit-keyframes moveInRight {
+  0% {
+    -webkit-transform: translateX(120px);
+            transform: translateX(120px);
+  }
+  60% {
+    -webkit-transform: translate(-20px);
+            transform: translate(-20px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    -webkit-transform: translateX(120px);
+            transform: translateX(120px);
+  }
+  60% {
+    -webkit-transform: translate(-20px);
+            transform: translate(-20px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+@-webkit-keyframes btnFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes btnFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes categoryFadeIn {
+  0% {
+    .flex-element::after {
+      content: " x";
+      height: 100px;
+      width: 100px;
+      z-index: 1;
+    }
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+@keyframes categoryFadeIn {
+  0% {
+    .flex-element::after {
+      content: " x";
+      height: 100px;
+      width: 100px;
+      z-index: 1;
+    }
+  }
+  100% {
+    background-color: red;
+  }
+}
+/*# sourceMappingURL=animations.css.map */
